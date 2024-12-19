@@ -25,10 +25,10 @@ A Siamese Network is a type of neural network architecture designed to learn the
 
 3. **Loss Function**:
    - The **contrastive loss** is commonly used to train Siamese Networks:
-   - 
      
+    \[
 L = (1 - Y) \cdot \frac{1}{2} D^2 + Y \cdot \frac{1}{2} \max(0, m - D)^2
-
+\]
 
      Where:
      - \(Y\): 1 for similar pairs, 0 for dissimilar pairs.
